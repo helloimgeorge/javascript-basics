@@ -25,8 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
         fruitListElem.appendChild(fruitLi);
     }
 
+    debugger;
     var animalPic = document.getElementById('animal-picture');
     animalPic.addEventListener('click', function() {
+        debugger;
         msgElem.innerHTML = 'Bark!';
         animalSound.play();
     });
